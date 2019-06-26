@@ -1,0 +1,27 @@
+syntax = "proto3";
+package ScanOut;
+
+// [START csharp_declaration]
+option csharp_namespace = "ScanOut";
+// [END csharp_declaration]
+
+// [START messages]
+message Scan {
+  
+	double angle_min = 1;        // start angle of the scan [rad]
+    double angle_max = 2;        // end angle of the scan [rad]
+    double angle_increment = 3;  // angular distance between measurements [rad]
+
+    double time_increment = 4;   // time between measurements [seconds] - if your scanner
+                         // is moving, this will be used in interpolating position
+                        // of 3d points
+    double scan_time = 5;        // time between scans [seconds]
+
+    double range_min = 6;        // minimum range value [m]
+    double range_max = 7;        // maximum range value [m]
+    repeated double ranges = 8;         // range data [m] (Note: values < range_min or > range_max should be discarded)
+    repeated double intensities = 9;    // intensity data [device-specific units].  If your
+                             // device does not provide intensities, please leave
+                             // the array empty.
+
+}

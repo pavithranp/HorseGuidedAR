@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Sample/HorseGuidedAR.unity
+  isLoaded: 1
+  isActive: 1

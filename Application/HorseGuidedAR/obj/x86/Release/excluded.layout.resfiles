@@ -1,0 +1,23 @@
+Data\boot.config
+Data\globalgamemanagers
+Data\globalgamemanagers.assets
+Data\globalgamemanagers.assets.resS
+Data\level0
+Data\level0.resS
+Data\managedAssemblies.txt
+Data\nativePlugins.txt
+Data\resources.assets
+Data\resources.assets.resS
+Data\Resources\unity default resources
+Data\Resources\unity_builtin_extra
+Data\sharedassets0.assets
+Data\sharedassets0.assets.resS
+Data\StreamingAssets\cube.dat
+Data\StreamingAssets\hiro.patt
+Data\StreamingAssets\hololens1280x720.dat
+Data\StreamingAssets\hololens1344x756.dat
+Data\StreamingAssets\hololens896x504.dat
+Data\StreamingAssets\kanji.patt
+Data\StreamingAssets\multi-barcode-4x3.dat
+Data\StreamingAssets\multi-barcode-8x6.dat
+Data\StreamingAssets\pattern-marker.patt

@@ -1,0 +1,8 @@
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\HorseGuidedAR.csproj;x86
