@@ -16,6 +16,7 @@ public class SocketReceiver : MonoBehaviour
 {
     public static String input = "0.5,0.5";
 	public String _port = "9090";
+    public static float radius;
     public static int SocketStatus = 0;
     //private static System.Timers.Timer aTimer;
     public CapsuleCollider cylinder;
@@ -81,15 +82,20 @@ public class SocketReceiver : MonoBehaviour
         {
             while (true) {
 				
-				
+				using (var dw = new DataWriter(args.Socket.OutputStream))
+                    {
+                        dw.WriteString(radius.ToString());
+                        await dw.StoreAsync();
+                        dw.DetachStream();
+                    }  
 				
 				using (var dataread = new DataReader(args.Socket.InputStream))
 				{
 					dataread.InputStreamOptions = InputStreamOptions.Partial;
-					await dataread.LoadAsync(2000);
-					input = dataread.ReadString(2000);
+					await dataread.LoadAsync(200); //Need to make sure the data recieved is greater than 200 characters, add some zeroes to input string from ROS 
+					input = dataread.ReadString(200);
 					Debug.Log("received: " + input);
-                  	//Ninput = input;
+                               	//Ninput = input;
 				}
             }
         }

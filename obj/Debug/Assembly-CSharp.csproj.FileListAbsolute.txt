@@ -240,3 +240,4 @@ C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\obj\Debug\Assembly-CSharp.dll
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\obj\Debug\Assembly-CSharp.pdb
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Temp\bin\Debug\GLTFSerialization.dll
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Temp\bin\Debug\GLTFSerialization.pdb
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Temp\bin\Debug\Google.Protobuf.dll

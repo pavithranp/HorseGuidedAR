@@ -577,6 +577,7 @@
     <Compile Include="Assets\Scripts\ARUWPVideo.cs" />
     <Compile Include="Assets\Scripts\CylinderBase.cs" />
     <Compile Include="Assets\Scripts\CylinderModifier.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\Scan.cs" />
     <Compile Include="Assets\Scripts\ScannerRange.cs" />
     <Compile Include="Assets\Scripts\SocketReceiver.cs" />
@@ -864,6 +865,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Users/pavit/OneDrive/Documents/HorseGuidedAR/Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Users/pavit/OneDrive/Documents/HorseGuidedAR/Assets/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/pavit/OneDrive/Documents/HorseGuidedAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -872,9 +876,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Users/pavit/OneDrive/Documents/HorseGuidedAR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/pavit/OneDrive/Documents/HorseGuidedAR/Assets/Plugins/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

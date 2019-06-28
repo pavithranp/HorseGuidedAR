@@ -15,44 +15,49 @@ public class ViewModel : MonoBehaviour
         track = GameObject.Find("Track").GetComponentInChildren<Text>();
         //cylinder = GameObject.Find("Cylinder").GetComponent<CapsuleCollider>();
         cylinderD = GameObject.Find("Cylinder (1)").GetComponent<CapsuleCollider>();
-        Debug.Log("@@@@@@@@start executed");
+        
     }
 
+    // To change the cylinder radius based on slider
     public void Slider_Changed(float newValue)
     {
         Vector3 localScale = cylinder.transform.localScale;
         localScale.x = newValue;
         localScale.z = newValue;
+        SocketReceiver.radius = newValue;
         cylinder.transform.localScale = localScale;
     }
 
+    // To change the inner cylinder to outer cylinder dimensions
     public void Button_Click()
     {
-        Debug.Log("Hello, World!");
+
         cylinderD.transform.localScale = cylinder.transform.localScale;
         cylinderD.transform.localPosition = cylinder.transform.localPosition;
     }
 
+    // To change strings in the Button
     public void Button_String(string msg)
     {
         buttonText.text = msg;
     }
 
+    //unused
     public void Toggle_Changed(bool newValue)
     {
         cube.SetActive(newValue);
         slider.interactable = newValue;
     }
-
+    // To change strings in another Button
     public void Text_Changed(string newText)
     {
         float temp = float.Parse(newText);
         cube.transform.localScale = new Vector3(temp, temp, temp);
     }
-
+    //To track the Marker again, the variable is modified in the ARUWPController.cs
     public void Track_Click()
     {
-        Debug.Log("Track clicked");
+       
         if (startTrack == false)
         {
             track.text = "click to fix again";

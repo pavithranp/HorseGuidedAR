@@ -281,6 +281,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 067d03ae2f96d03eb7fc7dce083bd755 Assembly-CSharp.dll:.UniversalSampleTutorial
 d496440965525cf443f14ba0d08cb1ba Assembly-CSharp.dll:HoloToolkit.Unity.UX.DistorterGravity
 13c6a912c560c2bff3a79ca69f41cb15 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.MeshButton
+4241fa139192f6f13d0291e32268e3a6 Assembly-CSharp.dll:ScanOut.ScannerRange
 13b744aeb1043b39d3a4b222584fffac Assembly-CSharp.dll:.CylinderModifier
 7bd0b8190b45177808bef6848a757f7c Assembly-CSharp.dll:HoloToolkit.UX.ToolTips.ToolTipConnector
 5dab0f65635a81318516e3830db29248 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonMeshProfile
@@ -513,4 +514,3 @@ ae91c545dea6ac849dd81c4b660c68ca Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-2909fd670b9641000e738f05764e5eae Assembly-CSharp.dll:.ScannerRange

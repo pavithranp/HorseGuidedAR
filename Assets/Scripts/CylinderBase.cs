@@ -10,6 +10,7 @@ public class CylinderBase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Code for inner cylinder
         cylinder = GameObject.Find("Cylinder (1)").GetComponent<CapsuleCollider>();
 
     }
@@ -19,10 +20,13 @@ public class CylinderBase : MonoBehaviour
     {
         if (SocketReceiver.SocketStatus == 1)
         {
-            var numbers = SocketReceiver.input.Split(',');
+            /*var numbers = SocketReceiver.input.Split(',');
             if (double.TryParse(numbers[0], out cylinderRadius) && double.TryParse(numbers[1], out cylinderHeight))
             {
-                Debug.Log("parse success" + cylinderRadius + "," + cylinderHeight);
+        */
+            cylinderRadius = 0.5;
+            cylinderHeight = 0.5;
+        Debug.Log("parse success" + cylinderRadius + "," + cylinderHeight);
                 Vector3 localScale = cylinder.transform.localScale;
                 //localScale.x = (float)cylinderRadius;
                 //localScale.z = (float)cylinderRadius;
@@ -31,7 +35,8 @@ public class CylinderBase : MonoBehaviour
                 localPosition.z = (float)cylinderHeight;
                 cylinder.transform.localScale = localScale;
                 cylinder.transform.localPosition = localPosition;
-                //cylinder.height = (float)cylinderHeight;
+          /*     
+        //cylinder.height = (float)cylinderHeight;
                 //cylinder.radius = (float)cylinderRadius;
                 // you know that the parsing attempt
                 // was successful
@@ -39,7 +44,7 @@ public class CylinderBase : MonoBehaviour
             else
             {
                 Debug.Log("parse fail");
-            }
+            }*/
 
         }
     }

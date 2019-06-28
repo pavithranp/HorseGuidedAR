@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class CylinderModifier : MonoBehaviour
 {
-    public double cylinderRadius = 0.5;
-    public double cylinderHeight = 2.0;
+    public double cylinderRadius = 0.1;
+    public double cylinderHeight = 0.2;
     public CapsuleCollider cylinder;
     // Start is called before the first frame update
     void Start()
     {
+        //code for outer cylinder
         cylinder = GameObject.Find("Cylinder").GetComponent<CapsuleCollider>();
 
     }
@@ -18,11 +19,15 @@ public class CylinderModifier : MonoBehaviour
     void Update()
     {
         if (SocketReceiver.SocketStatus == 1)
-        {
+        {/*
+           
             var numbers = SocketReceiver.input.Split(',');
             if (double.TryParse(numbers[0], out cylinderRadius) && double.TryParse(numbers[1], out cylinderHeight))
             {
-                Debug.Log("parse success" + cylinderRadius + "," + cylinderHeight);
+                */
+            //cylinderRadius = 0.1;
+            cylinderHeight = 0.2;
+               // Debug.Log("parse success" + cylinderRadius + "," + cylinderHeight);
                 Vector3 localScale = cylinder.transform.localScale;
                 localScale.x = (float)cylinderRadius;
                 localScale.z = (float)cylinderRadius;
@@ -36,11 +41,13 @@ public class CylinderModifier : MonoBehaviour
                 // you know that the parsing attempt
                 // was successful
                 SocketReceiver.SocketStatus = 0;
-            }
-            else
+
+        
+        /*
+        else
             {
                 Debug.Log("parse fail");
-            }
+            }*/
             
         }
     }

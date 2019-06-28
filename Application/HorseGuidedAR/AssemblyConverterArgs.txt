@@ -29,8 +29,8 @@ UnityEngine.VideoModule.dll
 UnityEngine.VRModule.dll
 UnityEngine.WindModule.dll
 UnityEngine.UIModule.dll
-UnityEngine.XRModule.dll
 UnityEngine.ScreenCaptureModule.dll
+UnityEngine.PhysicsModule.dll
 UnityEngine.Physics2DModule.dll
 UnityEngine.AccessibilityModule.dll
 UnityEngine.AIModule.dll
@@ -38,8 +38,8 @@ UnityEngine.AnimationModule.dll
 UnityEngine.ARModule.dll
 UnityEngine.AssetBundleModule.dll
 UnityEngine.AudioModule.dll
-UnityEngine.PhysicsModule.dll
 UnityEngine.ClothModule.dll
+UnityEngine.CoreModule.dll
 UnityEngine.CrashReportingModule.dll
 UnityEngine.DirectorModule.dll
 UnityEngine.dll
@@ -52,7 +52,7 @@ UnityEngine.JSONSerializeModule.dll
 UnityEngine.LocalizationModule.dll
 UnityEngine.ParticleSystemModule.dll
 UnityEngine.PerformanceReportingModule.dll
-UnityEngine.CoreModule.dll
+UnityEngine.XRModule.dll
 Newtonsoft.Json.dll
 UnityEngine.Timeline.dll
 UnityEngine.UI.dll
@@ -61,3 +61,4 @@ Unity.Analytics.Tracker.dll
 Unity.Analytics.StandardEvents.dll
 UnityEngine.Networking.dll
 GLTFSerializationUWP.dll
+Google.Protobuf.dll

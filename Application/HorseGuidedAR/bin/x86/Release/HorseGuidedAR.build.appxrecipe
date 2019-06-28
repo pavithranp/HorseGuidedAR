@@ -587,11 +587,11 @@
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.XRModule.dll">
-      <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.PhysicsModule.dll">
+      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
@@ -614,11 +614,11 @@
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.PhysicsModule.dll">
-      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.CoreModule.dll">
+      <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
@@ -656,8 +656,8 @@
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.CoreModule.dll">
-      <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\UnityEngine.XRModule.dll">
+      <PackagePath>UnityEngine.XRModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -682,6 +682,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\Google.Protobuf.dll">
+      <PackagePath>Google.Protobuf.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>

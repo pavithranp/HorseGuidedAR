@@ -315,3 +315,5 @@ C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x8
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x86\Release\Newtonsoft.Json.dll
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x86\Release\Newtonsoft.Json.pdb
 C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x86\Release\GLTFSerializationUWP.pdb
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x86\Release\Google.Protobuf.dll
+C:\Users\pavit\OneDrive\Documents\HorseGuidedAR\Application\HorseGuidedAR\bin\x86\Release\Google.Protobuf.pdb

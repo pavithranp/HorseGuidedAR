@@ -11,8 +11,8 @@ GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\project.json: 1D02BC64BAC0D041
 GeneratedProjects\UWP\Unity.TextMeshPro\project.json: 1D02BC64BAC0D041019673A1C4C51737
 GeneratedProjects\UWP\Unity.XR.WindowsMR\project.json: 1D02BC64BAC0D041019673A1C4C51737
 HorseGuidedAR\App.cs: ED8AF88652F54E65CCB598871D376D12
-HorseGuidedAR\AssemblyConverterArgs.txt: 76040346B99047C0ACC214E270AE001E
-HorseGuidedAR\HorseGuidedAR.csproj: E0AF4D5DD56359BA5769EBAE6B85FC42
+HorseGuidedAR\AssemblyConverterArgs.txt: 47862364A9865CEFF19CC88A0539AE3A
+HorseGuidedAR\HorseGuidedAR.csproj: 6EB173AC1BF9D3D82747F27049C0AE65
 HorseGuidedAR\HorseGuidedAR.csproj.user: modified
 HorseGuidedAR\Package.appxmanifest: 1D9E961EDEB8885ACB0D827FA560F3BE
 HorseGuidedAR\project.json: 1D02BC64BAC0D041019673A1C4C51737
