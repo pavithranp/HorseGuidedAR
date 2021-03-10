@@ -10,6 +10,6 @@ LaserScan-> ROSTopic -> ROS node(socket stream sender) -> Hololens (stream liste
 
 Click on the picture for a quick demo of the project
 
-
+![](Assets/m-holo.gif)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MA841fIqs6k/0.jpg)](https://www.youtube.com/watch?v=MA841fIqs6k)
